@@ -11,7 +11,7 @@
 <h4>转移vina到当前目录<br>
 <h5>cp /root/autodl-tmp/autodock_vina_1_1_2_linux_x86/bin/vina /root/autodl-tmp <br>
 
-<h4>创建文件夹<br>
+<h4>3 step 下载蛋白和小分子<br>
 <h5>mkdir -p protein ligand <br>
 
 <h4>把小分子导入 ligand 文件夹，蛋白导入protein文件夹。（要求：3d结构。可以从uniprot、pbd下载蛋白，pubchem下载小分子。也可以用提供的脚本下载）<br>
@@ -22,5 +22,5 @@
 <h4>下载蛋白的代码<br>
 <h5>python pdb.py --protein protein.txt --file protein <br>
 
-<h4>开始批量下载<br>
+<h4>4 step 开始批量分子对接<br>
 <h5>bash vina.sh --protein_dir protein  --ligand_dir ligand <br>
