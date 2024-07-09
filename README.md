@@ -38,6 +38,7 @@
 <h4>alias adt='/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin/adt'
 <h4>alias vision='/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin/vision'
 <h4>alias pythonsh='/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin/pythonsh'
+<h4>export PATH=/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin:$PATH
 <h4>source ~/.bashrc
 <h4>开始批量分子对接<br>
 <h4>需要ligand和protein文件夹下存在对应的文件<br>
