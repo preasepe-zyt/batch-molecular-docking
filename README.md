@@ -14,7 +14,7 @@
 
 <h1>3 step 
 <h4>下载蛋白和小分子<br>
-<h5>mkdir -p protein ligand <br>
+<h5>mkdir -p protein ligand results<br>
 
 <h4>把小分子导入 ligand 文件夹，蛋白导入protein文件夹。（要求：3d结构。可以从uniprot、pbd下载蛋白，pubchem下载小分子。也可以用提供的脚本下载）<br>
 
@@ -33,6 +33,7 @@
 <h4>sudo bash install.sh
 <h4>#修改bashrc。安装完软件后会提示你需要将哪些内容添加到bashrc文件里，这里只展示我自己的。
 <h4>vim ~/.bashrc
+<h4>下面的粘贴进行
 <h4>alias pmv='/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin/pmv'
 <h4>alias adt='/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin/adt'
 <h4>alias vision='/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin/vision'
