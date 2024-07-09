@@ -24,5 +24,6 @@
 <h4>下载蛋白的代码<br>
 <h5>python pdb.py --protein protein.txt --file protein <br>
 
-<h4>4 step 开始批量分子对接<br>
+<h1>4 step 
+<h4>开始批量分子对接<br>
 <h5>bash vina.sh --protein_dir protein  --ligand_dir ligand <br>
