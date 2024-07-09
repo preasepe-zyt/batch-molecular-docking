@@ -24,7 +24,21 @@
 <h4>下载蛋白的代码<br>
 <h5>python pdb.py --protein protein.txt --file protein <br>
 
+
 <h1>4 step 
+<h4>配置分子对接的环境<br>
+<h5>wget https://ccsb.scripps.edu/mgltools/download/495/mgltools_x86_64Linux2_1.5.6p1.tar.gz 
+<h4>tar mgltools_x86_64Linux2_1.5.6.tar.gz
+<h4>cd mgltools_x86_64Linux2_1.5.6
+<h4>sudo bash install.sh
+<h4>#修改bashrc。安装完软件后会提示你需要将哪些内容添加到bashrc文件里，这里只展示我自己的。
+<h4>vim ~/.bashrc
+<h4>alias pmv='/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin/pmv'
+<h4>alias adt='/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin/adt'
+<h4>alias vision='/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin/vision'
+<h4>alias pythonsh='/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin/pythonsh'
+<h4>source ~/.bashrc
 <h4>开始批量分子对接<br>
 <h4>需要ligand和protein文件夹下存在对应的文件<br>
 <h5>bash vina.sh --protein_dir protein  --ligand_dir ligand <br>
+
