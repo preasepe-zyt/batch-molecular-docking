@@ -22,5 +22,5 @@ cat > protein.txt #创建存储uniprot的文件。<br>
 下载蛋白的代码<br>
 python pdb.py --protein protein.txt --file protein <br>
 
-h1开始批量下载<br>
+<h1>开始批量下载<br>
 bash vina.sh --protein_dir protein  --ligand_dir ligand <br>
