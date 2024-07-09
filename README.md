@@ -26,4 +26,5 @@
 
 <h1>4 step 
 <h4>开始批量分子对接<br>
+<h4>需要ligand和protein文件夹下存在对应的文件<br>
 <h5>bash vina.sh --protein_dir protein  --ligand_dir ligand <br>
