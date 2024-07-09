@@ -33,7 +33,7 @@
 <h4>sudo bash install.sh
 <h4>#修改bashrc。安装完软件后会提示你需要将哪些内容添加到bashrc文件里，这里只展示我自己的。
 <h4>vim ~/.bashrc
-<h4>下面的粘贴进行
+<h4>下面的粘贴进去
 <h4>alias pmv='/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin/pmv'
 <h4>alias adt='/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin/adt'
 <h4>alias vision='/root/autodl-tmp/mgltools_x86_64Linux2_1.5.6/bin/vision'
