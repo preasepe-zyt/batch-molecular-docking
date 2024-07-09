@@ -43,4 +43,4 @@
 <h4>开始批量分子对接<br>
 <h4>需要ligand和protein文件夹下存在对应的文件<br>
 <h5>bash vina.sh --protein_dir protein  --ligand_dir ligand <br>
-
+<h4>output.csv 为十个构象中最低的那个整合在一起，results文件夹是对接的原始结果，包括十个对接函数打分和可视化所需要的文件。
